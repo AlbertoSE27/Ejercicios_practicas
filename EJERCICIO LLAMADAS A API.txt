@@ -1,0 +1,6 @@
+/* EJERCICIO 5 (PARTE2:LLAMADAS A APIS)
+1ºPROFESORES: http//localhost:1337/api/teacher?populate=evento
+2ºFECHA: http//localhost:1337/api/evento?populate[aditionalDetails][filters][date][$eq]=2025/03/14
+3ºZONA DINÁMICA:http//localhost:1337/api/events?populate[components][on][components.files][populate][pdf]=true
+4ºCLASES: http//localhost:1337/api/class?populate=*
+*/
